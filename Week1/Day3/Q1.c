@@ -1,7 +1,4 @@
-9
-
 #include <stdio.h>
-
 int main() {
     int start, end, i, j, isPrime;
 
