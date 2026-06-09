@@ -4,10 +4,10 @@ int main() {
     
     printf("enter no");
     scanf("%d" ,&n);
-    for(int i =1; i<=n; i++){
-        sum += i;
+    while(n != 0) {
+        sum += n % 10;
+        n /= 10;
     }
     printf("sum = %d" , sum);
     return 0;
-
 }
